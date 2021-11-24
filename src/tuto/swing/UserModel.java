@@ -4,6 +4,8 @@ public class UserModel {
 	
 	private String name;
 	private String surname;
+	private int age;
+	
 	public String getName() {
 		return name;
 	}
