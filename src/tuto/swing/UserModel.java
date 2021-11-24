@@ -16,5 +16,11 @@ public class UserModel {
 	public void setSurname(String surname) {
 		this.surname = surname;
 	}
+	
+	@Override
+	public String toString() {
+		return "UserModel [name=" + name + ", surname=" + surname + "]";
+	}
 
+	
 }
