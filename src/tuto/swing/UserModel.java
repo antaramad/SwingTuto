@@ -6,6 +6,15 @@ public class UserModel {
 	private String surname;
 	private int age;
 	
+	
+	
+	public UserModel(String name, String surname, int age) {
+		super();
+		this.name = name;
+		this.surname = surname;
+		this.age = age;
+	}
+	
 	public int getAge() {
 		return age;
 	}
